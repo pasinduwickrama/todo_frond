@@ -1,0 +1,74 @@
+.header-body{
+    background-color: rgb(187, 222, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.header-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list-r{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list-r p{
+   padding: 10px 32px;
+   font-size: 25px;
+   font-weight: 500;
+}
+.list-l{
+    padding: 10px 32px;
+}
+
+/* for 24 inch */
+@media screen and (max-width : 1920px) {
+    
+}
+
+/* for 22 inch */
+@media screen and (max-width : 1680px) {
+    
+    /* for 20 inch */
+    @media screen and (min-height : 1200px) {
+
+    }
+}
+
+/* for 15 inch */
+@media screen and (max-width : 1366px) {
+    
+}
+
+/* for 13 inch */
+@media screen and (max-width : 1280px) {
+
+    /* for 19 inch */
+    @media screen and (min-height: 1024px) {
+
+    }
+}
+
+/* for 17 inch */
+@media screen and (max-width : 970px) {
+
+}
+
+/* for all tab inch */
+@media  screen and (max-width:884px) {
+
+}
+
+/* for all mobile inch */
+@media  screen and (max-width:750px) {
+    
+}
+
+/* for all mobile inch */
+@media  screen and (max-width:330px) {
+
+.list-r p{
+   padding: 10px 22px;
+}
+}
